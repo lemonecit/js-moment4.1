@@ -3,7 +3,7 @@ I denna fil lägger du din JavaScript-kod för att lösa uppgiften.
 */
 
 const movies = {
-    getinformation: function(movie1) {
+    getinformation: function(title,category,playtime) {
       return this.title + this.category + this.playtime;
     }
   }
@@ -33,7 +33,7 @@ const movies = {
   }
 
 
-  getinformation();
+let info = document.getElementById("output").innerHTML = movie4.category;
 
 
 
